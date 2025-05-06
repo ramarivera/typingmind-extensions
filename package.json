@@ -1,0 +1,10 @@
+{
+  "name": "ux-toolkit-project",
+  "version": "1.0.0",
+  "description": "A simple UX toolkit project with esbuild bundling.",
+  "main": "dist/ux-toolkit.js",
+  "scripts": {
+    "build": "node build.mjs"
+  },
+  "devDependencies": {}
+}
