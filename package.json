@@ -1,0 +1,18 @@
+{
+  "name": "ux-toolkit-project",
+  "version": "1.0.0",
+  "description": "A simple UX toolkit project with esbuild bundling.",
+  "main": "dist/ux-toolkit.js",
+  "scripts": {
+    "build": "node build.mjs",
+    "dev": "node build.mjs --watch",
+    "serve:dist": "http-server ./dist -c-1 --cors"
+  },
+  "devDependencies": {
+    "http-server": "^14.1.1"
+  },
+  "dependencies": {
+    "@testing-library/dom": "^10.4.0",
+    "@testing-library/user-event": "^14.6.1"
+  }
+}
